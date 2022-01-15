@@ -1,0 +1,205 @@
+/* Mobile Screen */
+
+@media only screen and (max-width: 688px) {
+    .header-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteiner{
+        width: 100%;
+    }
+
+    .menu{
+        width: 50%;
+    }
+
+    .menu a{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .menu-icon{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .top-section{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .top-text{
+        width: 80%;
+        text-align: center;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+
+    .top-title{
+        font-size: 30px;
+    }
+
+    .top-text p{
+        font-size: 12px;
+    }
+
+    .top-banner img{
+        width: 80%;
+        margin-left: -120px;
+    }
+
+
+    .logo-area{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+
+    .logo-area img{
+        width: 50px;
+        height: 13px;
+    }
+
+    .popular-section{
+        width: 100%;
+    }
+    .boxes{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .see a{
+        text-align: center;
+    }
+
+    .interface-area{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .inter-banner img{
+        width: 100%;
+    }
+
+    .inter-banner, .inter-info{
+        width: 25%;
+        
+    }
+
+    .inter-heading{
+        font-size: 20px;
+        
+    }
+
+    .inter-feature{
+        text-align: center;
+    }
+
+    .inter-para{
+        font-size: 12px;
+    }
+
+    .footer-section{
+        width: 100%;
+    }
+
+    .footer-text h2{
+        font-size: 30px;
+    }
+
+    .footer-text p{
+        font-size: 15px;
+    }
+
+    .footer-icon .fab{
+        font-size: 10px;
+    }
+
+}
+
+/* Tablet View */
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .header-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteiner{
+        width: 100%;
+    }
+
+    .menu{
+        width: 50%;
+    }
+
+    .menu a{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .menu-icon{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .top-section{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .top-text{
+        width: 80%;
+        text-align: center;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+
+    .top-title{
+        font-size: 30px;
+    }
+
+    .top-text p{
+        font-size: 12px;
+    }
+
+    .top-banner img{
+        width: 80%;
+        margin-left: -120px;
+    }
+
+    .logo-area{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+
+    .boxes{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
